@@ -1,2 +1,10 @@
+__pycache__/
+*.py[cod]
+
+.claude
 .codex
 .coi
+.husky
+.vscode
+
+.venv
