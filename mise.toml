@@ -1,0 +1,9 @@
+[tools]
+python = "3.15"
+uv = "latest"
+
+[env]
+UV_PROJECT_ENVIRONMENT = "{{ xdg_data_home }}/venvs/{{ config_root | basename }}-{{ config_root | hash(len=6) }}"
+
+[settings]
+python.uv_venv_auto = "source"
