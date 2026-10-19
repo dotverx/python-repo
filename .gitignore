@@ -8,3 +8,6 @@ __pycache__/
 .vscode
 
 .venv
+
+pyproject.toml
+uv.lock
